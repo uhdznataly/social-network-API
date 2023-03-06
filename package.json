@@ -2,19 +2,21 @@
     "name": "social-network-api",
     "version": "1.0.1",
     "description": "Mongoose back-end project - Develop",
-    "main": "index.js",
+    "main": "server.js",
     "license": "MIT",
     "scripts": {
-      "start": "node index",
-      "dev": "nodemon index",
-      "seed": "node utils/seed",
-      "heroku-postbuild": "node utils/seed.js"
+        "start": "node index",
+        "dev": "nodemon index",
+        "seed": "node utils/seed",
+        "heroku-postbuild": "node utils/seed.js"
     },
     "dependencies": {
-      "express": "^4.17.1",
-      "mongoose": "^6.0.13"
+        "16": "^0.0.2",
+        "express": "^4.17.1",
+        "mongoose": "^6.0.13",
+        "node": "^16.13.0"
     },
     "devDependencies": {
-      "nodemon": "^2.0.9"
+        "nodemon": "^2.0.9"
     }
-  }
+}
